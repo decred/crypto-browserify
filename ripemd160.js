@@ -778,5 +778,5 @@ function core_ripemd160(x, len) {
 }
 
 module.exports = function ripemd160(buf) {
-    return helpers.hash(buf, core_ripemd160, 160, true);
+    return helpers.hash(buf, core_ripemd160, 20, true);
 };
