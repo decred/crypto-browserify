@@ -4,12 +4,13 @@ var sha256 = require('./sha256')
 var rng = require('./rng')
 var md5 = require('./md5')
 var blake256 = require('./blake256')
-
+var ripemd160 = require('./ripemd160')
 var algorithms = {
   sha1: sha,
   sha256: sha256,
   md5: md5,
-  blake256: blake256
+  blake256: blake256,
+  rmd160: ripemd160
 }
 
 var blocksize = 64
